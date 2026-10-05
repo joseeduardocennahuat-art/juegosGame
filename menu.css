@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(135, 160, 78);
+    border-color: rgb(159, 98, 23);
+    text-align: center;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+button{
+text-align: center;
+text-transform: capitalize;
+width: 200px;
+height: 100px;
+}
+.izquierda{
+    position: absolute;
+    left: 20px;
+    top: 68px;
+    width: 50px;
+    height: 50px;
+}
+
+.derecha{
+    position: absolute;
+    right: 20px;
+    top: 67px;
+    width: 50px;
+    height: 50px;
+}
+.ale{
+    animation: fotar 30s ease-in ease-in-out infinite;
+}
+@keyframes aparecer {
+    from {
+        transform: translateX(-300px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
